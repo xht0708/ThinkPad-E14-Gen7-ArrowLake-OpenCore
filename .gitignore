@@ -1,0 +1,37 @@
+# Private / local data
+private/
+EFI-private/
+config-private.plist
+
+# Apple Recovery / Installer
+com.apple.recovery.boot/
+BaseSystem.dmg
+BaseSystem.chunklist
+InstallAssistant.pkg
+*.dmg
+
+# OpenCore debug logs
+opencore-*.txt
+
+# Generated logs
+*.log
+
+# Temporary / backup
+*.tmp
+*.bak
+*.orig
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated/cache
+build/
+cache/
+tmp/
+
+# Machine-specific Windows OEM activation table
+MSDM.aml
