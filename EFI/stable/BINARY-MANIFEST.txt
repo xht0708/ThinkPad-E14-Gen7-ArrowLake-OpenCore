@@ -1,0 +1,73 @@
+ThinkPad E14 Gen 7 Arrow Lake OpenCore
+Binary manifest
+
+=== Kexts ===
+AppleMCEReporterDisabler.kext
+  Bundle:  org.xlnc.disabler.MCEReporter
+  Version: 1.2
+BlueToolFixup.kext
+  Bundle:  as.acidanthera.BlueToolFixup
+  Version: 2.7.3
+BrightnessKeys.kext
+  Bundle:  as.acidanthera.BrightnessKeys
+  Version: 1.0.4
+CpuTopologyRebuild.kext
+  Bundle:  org.b00t0x.CpuTopologyRebuild
+  Version: 2.0.2
+CpuTscSync.kext
+  Bundle:  org.lvs1974.driver.CpuTscSync
+  Version: 1.1.2
+IntelBTPatcher.kext
+  Bundle:  com.zxystd.IntelBTPatcher
+  Version: 2.5.0
+IntelBluetoothFirmware.kext
+  Bundle:  com.zxystd.IntelBluetoothFirmware
+  Version: 2.5.0
+Lilu.kext
+  Bundle:  as.vit9696.Lilu
+  Version: 1.7.3
+NullEthernet.kext
+  Bundle:  org.rehabman.driver.NullEthernet
+  Version: 1.0.6
+RestrictEvents.kext
+  Bundle:  as.vit9696.RestrictEvents
+  Version: 1.1.7
+SMCBatteryManager.kext
+  Bundle:  ru.usrsse2.SMCBatteryManager
+  Version: 1.3.9
+SMCLightSensor.kext
+  Bundle:  ru.usrsse2.SMCLightSensor
+  Version: 1.3.9
+SMCProcessor.kext
+  Bundle:  as.vit9696.SMCProcessor
+  Version: 1.3.9
+SMCSuperIO.kext
+  Bundle:  ru.joedm.SMCSuperIO
+  Version: 1.3.9
+USBToolBox.kext
+  Bundle:  com.dhinakg.USBToolBox.kext
+  Version: 1.2.0
+UTBDefault.kext
+  Bundle:  com.dhinakg.USBToolBox.injector
+  Version: 1.0
+VirtualSMC.kext
+  Bundle:  as.vit9696.VirtualSMC
+  Version: 1.3.9
+WhateverGreen.kext
+  Bundle:  as.vit9696.WhateverGreen
+  Version: 1.7.2
+YogaSMC.kext
+  Bundle:  org.zhen.YogaSMC
+  Version: 1.5.3
+
+=== EFI binaries ===
+Drivers/HfsPlus.efi
+  SHA256: a55b5fff36578864ba6792c4c6369c71f6f35b61dd5a853ddf8583cd36c31d8f
+Drivers/OpenCanopy.efi
+  SHA256: 2f1e051b8339803e4941daeea46a8e4033638e178ee971e56828519f6fba8503
+Drivers/OpenRuntime.efi
+  SHA256: 12b9c3048bf4cd21133765bdc1355db513d7c60430347defcade1445e2a0b693
+Drivers/ResetNvramEntry.efi
+  SHA256: 5217eff381595ecd1a642d735c4179870c69a72c1302cc38279e034d4bc0a95f
+Drivers/apfs_aligned.efi
+  SHA256: 1663fa54103cf808b45fda3f0385626d1f1899a9ed8258d21a827db4426ed408
